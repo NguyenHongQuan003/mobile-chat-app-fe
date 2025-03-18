@@ -95,3 +95,14 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+
+===========================================
+Cài đặt Androi Studio
+B1 vào trang: https://developer.android.com/studio
+B2 Nhấn vào dowload và check vào "I have read and agree with the above terms and conditions"
+B3 Double click để cài đặt
+B4 Next->Next->Next->Install->Next->Finish
+B5 Mở app và chọn Don't send->Next->Chọn standard->Next->Next->Accept->Finish
+B6 Chờ quá trình cài hoàn tất -> Chọn Finish
+Chạy project : npx react-native run-android
