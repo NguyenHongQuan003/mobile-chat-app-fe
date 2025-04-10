@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { View } from 'react-native';
-import LoginScreen from './screens/LoginScreen';
-import SignUpScreen from './screens/SignUpScreen';
-import StartScreen from './screens/StartScreen';
-import MainScreen from './screens/MainScreen'; 
+import LoginScreen from '../screens/LoginScreen';
+import SignUpScreen from '../screens/SignUpScreen';
+import StartScreen from '../screens/StartScreen';
+import MainScreen from '../screens/MainScreen';
 
 const AppNavigator = () => {
   const [currentScreen, setCurrentScreen] = useState<'Start' | 'Login' | 'SignUp' | 'Main'>('Start');
